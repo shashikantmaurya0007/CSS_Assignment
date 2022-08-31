@@ -1,0 +1,9 @@
+.feedbackcontent_container {
+  width: 90%;
+  margin: 1rem auto;
+}
+.feedbackcontent_title {
+  font-weight: bolder;
+  font-size: x-large;
+  margin: 1.3rem 0;
+}

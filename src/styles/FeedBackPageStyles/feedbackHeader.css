@@ -1,0 +1,9 @@
+.feedbackheader_container {
+  height: 10vh;
+  background-color: var(--theme-bg-color);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 2rem;
+  color: var(--theme-color);
+}

@@ -1,0 +1,46 @@
+.feedback_safetymeasure_card {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  gap: 10px;
+  /* position: relative; */
+}
+
+.feedback_safetymeasure_card > div,
+img {
+  width: 20 rem;
+  height: 10rem;
+  position: relative;
+}
+img {
+  border: 1px solid lightgray;
+  border-radius: 0.6rem;
+  width: 100%;
+  object-fit: contain;
+}
+
+.safetymeasure_card_checkbox {
+  position: absolute;
+  right: 1rem;
+  top: 0.4rem;
+  width: 1rem;
+  height: 1rem;
+  accent-color: var(--theme-bg-color);
+}
+.disable_feedback_card {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+}
+@media screen and (max-width: 800px) {
+  .feedback_safetymeasure_card {
+    width: 9rem;
+  }
+  .feedback_safetymeasure_card > img {
+    width: 8rem;
+  }
+}

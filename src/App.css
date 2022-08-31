@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+button {
+  border: 0;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 2 px;
+  border-radius: 8px;
+  background-color: var(--theme-bg-color);
+}
+.disabled_component {
+  opacity: 0.5;
+  cursor: none;
+}
+li {
+  list-style-type: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem;
+  width: 24rem;
+  border-radius: 10px;
+}
+li:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+@import url(./styles/variable.css);
